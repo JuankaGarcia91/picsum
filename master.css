@@ -1,0 +1,153 @@
+body {
+    background: radial-gradient(circle,rgb(104, 104, 104) 40%, rgb(255, 255, 255) 95%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contenido{
+    display: grid;
+    padding: 15px;
+
+    grid-template-columns: repeat(4,1fr);
+    background-color: rgba(0, 255, 255, 0.452);
+    gap: 20px;
+
+}
+
+.card {
+    float: left;
+    width: 20%;
+    margin: 0.5%;
+    position: relative;
+    
+}
+
+h5{
+    font-size: 1rem;
+    text-align: center;
+    background-color: rgba(0, 255, 38, 0.598);
+    border-radius: 30px;
+    width: 200px;
+    margin-left:25px ;
+  }
+  h6{
+    text-align: center;
+  }
+  img{
+    max-width: 200px;
+    max-height: 200px;
+    margin-top: 10px;
+    margin-left: 40px;
+    width: auto;
+    height: auto;
+    
+
+   }
+   .caja-inicio{
+    display:grid;
+    grid-template-columns:repeat(6, 1fr);
+    padding: 10px;
+    text-align: center;
+    left: 55%; 
+   }
+
+   #boton{
+   margin-right: 300px;
+    margin-top: 110px;
+    width: 100px;
+    position: relative;
+   }
+   label{
+    position: relative;
+    display: flex;
+    width: 150px;
+    left: 100%;
+    align-items: center;
+   }
+
+        /* Media Queries */
+    @media (max-width: 900px) {
+      label{  
+       position: relative;
+       margin-left: -4px;
+        
+     
+       }
+       .caja-inicio{
+        position: relative;
+        border: solid 2px red; 
+        width: 882px;
+        left: -50px;
+
+       
+        }  
+      }
+      @media (max-width: 400px) {
+      label{  
+       position: relative;
+       margin-left: -4px;
+        
+     
+       }
+       .caja-inicio{
+        position: relative;
+        border: solid 2px red; 
+        width: 882px;
+        left: -50px;
+
+       
+        }  
+      }
+
+.text {
+    padding: 1px;
+}
+
+.titu {
+    color: radial-gradient(circle, #000000 , #ffffff );
+    font-family: Tahoma;
+    font-style: bold, italic;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.subt {    
+    text-align: center;
+}
+
+.subtex {
+    text-align: center;
+}
+
+.btn1 {
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    font-family: Tahoma;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 20px;
+    padding: 12px;
+    position: relative;  
+    left: 40rem;
+    bottom: 16rem;
+}
+
+.aceptar {
+    position: relative;
+    left: 20rem;
+    top: 1em;
+    border: none;
+    border-radius: 20px;
+}
+
+.caja1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+    border: #000000 10px;
+}
+
+.card {
+    border: none;
+}
