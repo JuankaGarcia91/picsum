@@ -43,7 +43,7 @@
 
             for(let item of data){
                 contenidoDiv.innerHTML += 
-                `<div class="card" style="width: 18rem;">
+                `<div class="card" >
                     <img src="${item.download_url}?${urlFoto}" class="card-img-top" alt="..." class="img">
                     <div class="card-body">
                         <h5 class="card-title">${item.author}</h5>
